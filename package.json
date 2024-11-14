@@ -1,0 +1,21 @@
+{
+  "name": "blog-server",
+  "version": "1.0.0",
+  "description": "full blog application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "blog",
+    "gomycode"
+  ],
+  "author": "mayedave",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.0"
+  }
+}
